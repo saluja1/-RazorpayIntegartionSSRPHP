@@ -45,13 +45,13 @@ if ($displayCurrency !== 'INR')
 $data = [
     "key"               => $keyId,
     "amount"            => $amount,
-    "name"              => "DJ Tiesto",
-    "description"       => "Tron Legacy",
-    "image"             => "https://s29.postimg.org/r6dj1g85z/daft_punk.jpg",
+    "name"              => "Amit Saluja",
+    "description"       => "Razorpay Integration",
+    "image"             => "logo_url",
     "prefill"           => [
-    "name"              => "Daft Punk",
-    "email"             => "customer@merchant.com",
-    "contact"           => "9999999999",
+        "name"              => "customer Name",
+        "email"             => "customer email",
+        "contact"           => "customer mobile",
     ],
     "notes"             => [
     "address"           => "Hello World",
